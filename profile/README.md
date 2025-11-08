@@ -22,7 +22,7 @@ Born from years of managing multiple machines and solving real-world system mana
 - **AI Integration** - Modern AI-assisted workflows for productivity
 - **Automation** - Script complex tasks with reliable, tested tools
 
-**Organized as five GitHub organizations** (DazzleProj, DazzleLib, DazzleTools, DazzleNodes, DazzleAI) - similar to how the Linux project coordinates the kernel, libraries, utilities, and applications under one umbrella.
+**Organized as five GitHub organizations** (DazzleProj, DazzleLib, DazzleTools, DazzleNodes, DazzleML) - similar to how the Linux project coordinates the kernel, libraries, utilities, and applications under one umbrella.
 
 ### Who is Dazzle For?
 
@@ -84,7 +84,7 @@ Similar to how the Linux project includes the kernel, GNU tools, system utilitie
 - **DazzleLib** = Foundation libraries (like glibc, core system libraries)
 - **DazzleTools** = System utilities (like GNU coreutils, findutils)
 - **DazzleNodes** = Application extensions (like desktop environments, plugins)
-- **DazzleAI** = Specialized tools (like AI/ML tooling ecosystem)
+- **DazzleML** = Specialized tools (like AI/ML tooling ecosystem)
 
 Just as you might install "Linux" and get a complete system, DazzleProj aims to provide one setup command that installs and configures your entire tool environment across any platform.
 
@@ -167,7 +167,7 @@ Custom nodes that make ComfyUI workflows easier:
 - "I want smarter resolution controls in ComfyUI"
 - "I need masks to automatically match my images"
 
-### 🤖 [DazzleAI](https://github.com/DazzleAI)
+### 🤖 [DazzleML](https://github.com/DazzleML)
 **AI-assisted tools and workflows**
 
 1. **[ComfyUI Triton & SageAttention Installer](https://github.com/djdarcy/comfyui-triton-and-sageattention-installer)** - One-click setup for advanced AI features
@@ -187,11 +187,11 @@ Custom nodes that make ComfyUI workflows easier:
 - **[forks](https://github.com/djdarcy/forks)** - AI-related utilities and experiments
 
 #### 🔗 TodoAI Integration
-DazzleAI tools are designed to integrate with **[TodoAI](https://github.com/Todo-AI)**, a separate project building a task-based operating system. TodoAI consumes DazzleAI tools to provide AI-assisted task management and intelligent workflow automation.
+DazzleML tools are designed to integrate with **[TodoAI](https://github.com/Todo-AI)**, a separate project building a task-based operating system. TodoAI consumes DazzleML tools to provide AI-assisted task management and intelligent workflow automation.
 
 **License**: GPL3
 
-**Note**: Tools are currently at https://github.com/djdarcy and will be organized under DazzleAI
+**Note**: Tools are currently at https://github.com/djdarcy and will be organized under DazzleML
 
 ### 🏗️ [DazzleProj](https://github.com/DazzleProj) - Build Environment
 **One command to set up your entire system**
@@ -214,7 +214,7 @@ DazzleAI tools are designed to integrate with **[TodoAI](https://github.com/Todo
 - Handles different directory structures
 - Manages many tools and their configurations
 - Needs to be simple to use but flexible for different setups
-- Must coordinate installation of DazzleTools, DazzleLib, DazzleNodes, and DazzleAI
+- Must coordinate installation of DazzleTools, DazzleLib, DazzleNodes, and DazzleML
 
 **Status**: Packaging and distribution strategy in development. May be funded through community support to properly solve these challenges.
 
@@ -353,7 +353,7 @@ preserve COPY --loadIncludes "best-images.txt" --dst "/final-selection" --rel
 | [DazzleTools](https://github.com/DazzleTools) | 🚧 Active Development | 20+ tools ready, 100+ developed but not released |
 | [DazzleLib](https://github.com/DazzleLib) | ✅ Stable | Published on PyPI, actively used |
 | [DazzleNodes](https://github.com/DazzleNodes) | ✅ Active | Published on ComfyUI Registry |
-| [DazzleAI](https://github.com/DazzleAI) | 🚧 Active Development | New tools being developed |
+| [DazzleML](https://github.com/DazzleML) | 🚧 Active Development | New tools being developed |
 
 ---
 
@@ -395,7 +395,7 @@ DazzleProj (Ecosystem coordinator + Build Environment)
 │   ├── ncsi-resolver → Network diagnostics
 │   └── 100+ more tools (selective publication)
 │
-├── DazzleAI (AI Tools - github.com/DazzleAI)
+├── DazzleML (AI Tools - github.com/DazzleML)
 │   ├── comfyui-triton-installer → Most popular Dazzle project
 │   ├── ai-training-monitor
 │   ├── find-best-images
@@ -418,7 +418,7 @@ Dazzle uses a practical licensing approach:
 - **DazzleLib** (MIT): Use in any project, commercial or not
 - **DazzleTools** (GPL3): Free for everyone, keeps tools open
 - **DazzleNodes** (MIT): Compatible with ComfyUI ecosystem
-- **DazzleAI** (GPL3): Encourages open AI tooling
+- **DazzleML** (GPL3): Encourages open AI tooling
 
 ### Commercial Options
 Some specialized DazzleTools have commercial licenses for businesses. These are:
@@ -461,7 +461,7 @@ Task-based operating system with AI integration - **Active development with prod
 
 **Vision**: Tasks as the fundamental unit of computing - a task-based operating system where AI and human work converge through natural language task management.
 
-**Integration**: Consumes DazzleAI tools for intelligent workflow automation
+**Integration**: Consumes DazzleML tools for intelligent workflow automation
 
 ---
 
@@ -551,7 +551,7 @@ Like many open source projects, Dazzle faces the challenge that **most users don
 - Cross-platform build environment (setenv.py)
 - Video tutorials for common tasks
 - Windows installer for non-technical users
-- Expanded DazzleAI tools
+- Expanded DazzleML tools
 - Community bounty board (if funding goals met)
 
 ### Long Term (2027+)
@@ -578,7 +578,7 @@ Like many open source projects, Dazzle faces the challenge that **most users don
 ## Frequently Asked Questions
 
 **Q: What are the five Dazzle organizations?**
-A: **DazzleProj** (build environment), **DazzleLib** (libraries), **DazzleTools** (utilities), **DazzleNodes** (ComfyUI), and **DazzleAI** (AI tools). Think of it like the Linux project structure -- one umbrella coordinating specialized components.
+A: **DazzleProj** (build environment), **DazzleLib** (libraries), **DazzleTools** (utilities), **DazzleNodes** (ComfyUI), and **DazzleML** (AI tools). Think of it like the Linux project structure -- one umbrella coordinating specialized components.
 
 **Q: Do I need to be technical to use Dazzle tools?**
 A: Many tools are command-line based, but we're working on beginner-friendly guides and GUIs.
@@ -619,7 +619,7 @@ The Dazzle ecosystem uses multiple licenses:
 - **DazzleLib**: MIT License (use anywhere)
 - **DazzleTools**: Primarily GPL 3.0 (some commercial options)
 - **DazzleNodes**: MIT License (ComfyUI compatible)
-- **DazzleAI**: GPL 3.0
+- **DazzleML**: GPL 3.0
 
 See individual repositories for specific license files.
 
