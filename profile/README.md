@@ -24,6 +24,19 @@ Born from years of managing multiple machines and solving real-world system mana
 
 **Organized as five GitHub organizations** (DazzleProj, DazzleLib, DazzleTools, DazzleNodes, DazzleML) - similar to how the Linux project coordinates the kernel, libraries, utilities, and applications under one umbrella.
 
+
+### Project Status
+
+| Organization | Status | Description |
+|-----------|--------|-------------|
+| [DazzleProj](https://github.com/DazzleProj) | 📋 Planning | Build environment repository migration in progress |
+| [DazzleTools](https://github.com/DazzleTools) | 🚧 Active Development | 20+ tools ready, 100+ developed but not released |
+| [DazzleLib](https://github.com/DazzleLib) | ✅ Stable | Published on PyPI, actively used |
+| [DazzleNodes](https://github.com/DazzleNodes) | ✅ Active | Published on ComfyUI Registry |
+| [DazzleML](https://github.com/DazzleML) | 🚧 Active Development | New tools being developed |
+
+---
+
 ### Who is Dazzle For?
 
 **🏠 Home Users**
@@ -83,10 +96,12 @@ Similar to how the Linux project includes the kernel, GNU tools, system utilitie
 
 - **DazzleLib** = Foundation libraries (like glibc, core system libraries)
 - **DazzleTools** = System utilities (like GNU coreutils, findutils)
-- **DazzleNodes** = Application extensions (like desktop environments, plugins)
 - **DazzleML** = Specialized tools (like AI/ML tooling ecosystem)
+- **DazzleNodes** = Application extensions (like desktop environments, plugins)
 
 Just as you might install "Linux" and get a complete system, DazzleProj aims to provide one setup command that installs and configures your entire tool environment across any platform.
+
+---
 
 ### 🔧 [DazzleTools](https://github.com/DazzleTools)
 **Practical utilities for everyday tasks**
@@ -141,6 +156,8 @@ From the extensive collection in `WinTools/`, `NixTools/`, and `OmniTools/` dire
 
 **Note**: Tools are currently at https://github.com/djdarcy and will be migrated to DazzleTools organization
 
+---
+
 ### 📚 [DazzleLib](https://github.com/DazzleLib)
 **Building blocks that power Dazzle tools**
 
@@ -152,6 +169,8 @@ Reliable libraries for file operations and system tasks:
 **License**: Mostly MIT (can be used in any project)
 
 **Note**: Most users don't need to install these directly—they're available through PyPi and included automatically with tools that use them.
+
+---
 
 ### 🎨 [DazzleNodes](https://github.com/DazzleNodes)
 **Extensions for ComfyUI image generation**
@@ -166,6 +185,8 @@ Custom nodes that make ComfyUI workflows easier:
 **Use Cases**:
 - "I want smarter resolution controls in ComfyUI"
 - "I need masks to automatically match my images"
+
+---
 
 ### 🤖 [DazzleML](https://github.com/DazzleML)
 **AI-assisted tools and workflows**
@@ -192,6 +213,8 @@ DazzleML tools are designed to integrate with **[TodoAI](https://github.com/Todo
 **License**: GPL3
 
 **Note**: Tools are currently at https://github.com/djdarcy and will be organized under DazzleML
+
+---
 
 ### 🏗️ [DazzleProj](https://github.com/DazzleProj) - Build Environment
 **One command to set up your entire system**
@@ -342,18 +365,6 @@ preserve COPY --loadIncludes "best-images.txt" --dst "/final-selection" --rel
 ```
 
 **Time saved**: Manual review = 20-30 hours. With Dazzle = 2-3 hours.
-
----
-
-## Project Status
-
-| Organization | Status | Description |
-|-----------|--------|-------------|
-| [DazzleProj](https://github.com/DazzleProj) | 📋 Planning | Build environment repository migration in progress |
-| [DazzleTools](https://github.com/DazzleTools) | 🚧 Active Development | 20+ tools ready, 100+ developed but not released |
-| [DazzleLib](https://github.com/DazzleLib) | ✅ Stable | Published on PyPI, actively used |
-| [DazzleNodes](https://github.com/DazzleNodes) | ✅ Active | Published on ComfyUI Registry |
-| [DazzleML](https://github.com/DazzleML) | 🚧 Active Development | New tools being developed |
 
 ---
 
@@ -604,8 +615,8 @@ A: Many existing tools are platform-specific, expensive, or don't integrate well
 
 Built with:
 - Years of real-world system management experience
-- Lessons learned from managing home networks, IT infrastructure, and development environments
-- Feedback and needs from actual users facing real problems
+- Lessons learned from managing IT infrastructure, home networks, and development environments
+- Feedback and needs from real users facing real problems
 - Modern AI assistance for productivity gains
 - The open source community's countless contributions
 
